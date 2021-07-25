@@ -12,6 +12,9 @@ body {
 
 button {
   font-size: 7px;
+  background-color: rgb(241, 129, 129);
+  padding: 3px 7px 3px 7px;
+  font-size: 8pt;
 }
 
 #main-content {
@@ -30,7 +33,7 @@ button {
 #list {
   margin: 10px;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(165, 165, 165, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;

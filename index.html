@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Flatiron Task Lister</title>
   <link rel="stylesheet" href="./style.css">
-  <script src="./src/index.js"></script>
+  <script defer src="./src/index.js"></script>
 </head>
 <body>
   <div id="main-content">
@@ -14,10 +14,10 @@
       <label for="newTaskDescription">Task description:</label>
       <input id="newTaskDescription" type="text" name="newTaskDescription" placeholder="description">
       <input type="submit" value="Create New Task">
-      <select id = "priority" onchange = "priorityColor(this)">
+      <select id = "priority" >
         <option id="high" value="red">High Priority</option>
         <option id="medium" value="yellow">Medium Priority</option>
-        <option id="low" value="green">High Priority</option>
+        <option id="low" value="green">Low Priority</option>
       </select>
     </form>
 
