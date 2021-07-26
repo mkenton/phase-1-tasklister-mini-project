@@ -28,7 +28,7 @@ function listCreator(task){
   edit.addEventListener('click', makeEditable)
   edit.setAttribute("class","edit")
   
-  li.textContent = `${task} | ` + ` DUE: ${document.getElementById("date").value} `;
+  li.textContent = `${task} ` + ` --- ` + `  DUE: ${document.getElementById("date").value} `;
   li.style.color = `${document.getElementById("priority").value}`;
   li.appendChild(edit)
   li.appendChild(btn);
