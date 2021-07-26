@@ -38,3 +38,15 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+.edit {
+  
+  background-color: rgb(58, 58, 58);
+  color:blanchedalmond
+}
+
+.clicked {
+  
+  background-color: rgb(128, 128, 128);
+  color:blanchedalmond
+}
